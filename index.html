@@ -1,0 +1,257 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Retina Website Template | Home :: w3layouts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href="http://test.local/empweb/web/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--start slider -->
+    <link rel="stylesheet" href="http://test.local/empweb/web/css/fwslider.css" media="all">
+    <script src="http://test.local/empweb/web/js/jquery.min.js"></script>
+    <script src="http://test.local/empweb/web/js/jquery-ui.min.js"></script>
+    <script src="http://test.local/empweb/web/js/css3-mediaqueries.js"></script>
+    <script src="http://test.local/empweb/web/js/fwslider.js"></script>
+<!--end slider -->
+<script type="text/javascript" src="http://test.local/empweb/web/js/jquery-hover-effect.js"></script>
+<script type="text/javascript">
+//Image Hover
+jQuery(document).ready(function(){
+jQuery(function() {
+	jQuery('ul.da-thumbs > li').hoverdir();
+});
+});
+</script>
+<!-- Add fancyBox main JS and CSS files -->
+<script src="http://test.local/empweb/web/js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="http://test.local/empweb/web/css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html">
+			<!-- <img src="http://test.local/empweb/web/images/logo.png" alt="" /> --></a>
+		</div>		
+	<div class="cssmenu">
+		<ul>
+		   <li class="active"><a href="index.html">Trang chủ</a></li>
+		   <li><a href="dichvuseo.html">Dịch vụ SEO</a></li>
+		    <li><a href="thuongmaidientu.html">Thương mại điện tử</a>
+		      <ul>
+		         <li class="has-sub"><a href="dichvuseo.html">About</a></li>
+		         <li class="has-sub"><a href="thuongmaidientu.html">Archives</a></li>
+		         <li class="has-sub"><a href="contact.html">Contact</a></li>
+		         <li class="has-sub"><a href="thuehosting.html">Gallery</a></li>
+		      </ul>
+		   </li>
+		   <li><a href="thuehosting.html">Thuê Hosting</a></li>
+		   <li><a href="thietkeweb.html">Thiết kế web</a></li>
+		   <li class="last"><a href="contact.html">Liên hệ</a></li>
+		 <div class="clear"></div>
+		 </ul>
+	</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+					   <li><a href="index.html">Trang chủ</a></li>
+					   <li><a href="dichvuseo.html">Dịch vụ SEO</a></li>
+					   <li><a href="thuongmaidientu.html">Thương Mại Điện Tử</a></li>
+					   <li><a href="thuehosting.html">Thuê Hosting</a></li>
+					   <li><a href="thietkeweb.html">Thiết kế web</a></li>
+					   <li class="last"><a href="contact.html">Liên hệ</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</nav>
+		</div>
+	<div class="clear"></div>
+	</div>
+</div>
+</div>
+<!-- start slider -->
+    <div id="fwslider">
+        <div class="slider_container">
+            <div class="slide"> 
+                <!-- Slide image -->
+                    <img src="http://test.local/empweb/web/images/slider1.jpg">
+                <!-- /Slide image -->
+                <!-- Texts container -->
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <!-- Text title -->
+                        <h4 class="title">Đơn giản và nhanh chóng!</h4>
+                        <!-- /Text title -->
+                        
+                        <!-- Text description -->
+                        <p class="description">EMP là đơn vị triển khai website uy tín, với hàng ngàn khách hàng, 
+                        				đủ biết sự tiện lợi của EMP mang lại là to lớn thế nào. 
+                        				Chỉ cần EMP là bạn có ngày 1 website chuyên nghiệp chạy trên chính domain của bạn</p>
+                        <!-- /Text description -->
+                    </div>
+                </div>
+                 <!-- /Texts container -->
+            </div>
+            <!-- /Duplicate to create more slides -->
+            <div class="slide">
+                <img src="http://test.local/empweb/web/images/slider2.jpg">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <h4 class="title">Web chuyên nghiệp</h4>
+                        <p class="description">Chất lượng phục vụ luôn được cải thiện, tác phong làm việc chuyên nghiệp hướng tới khách hàng.</p>
+                    </div>
+                </div>
+            </div>
+            <!--/slide -->
+        </div>
+        <div class="timers"></div>
+        <div class="slidePrev"><span></span></div>
+        <div class="slideNext"><span></span></div>
+    </div>
+    <!--/slider -->
+<!-- start mian -->
+<div class="main_bg">
+<div class="wrap">
+	<div class="grids_1_of_3">
+		<div class="grid_1_of_3 images_1_of_3">
+			 <img src="http://test.local/empweb/web/images/icon1.png" alt="" />
+			 <a href="#"><h3>Dịch vụ SEO</h3></a>
+			 <p>Bạn ở đâu khi khách hàng đang tìm kiếm bạn trên google? 
+			 	Dịch vụ SEO của chúng tôi sẽ đưa bạn lên top google và vượt lên trên tất cả các đối thủ của bạn.
+			 	</p>
+		</div>
+		<div class="grid_1_of_3 images_1_of_3">
+			<img src="http://test.local/empweb/web/images/icon2.png" alt="" />
+			<a href="#"><h3>Thượng Mại Điện Tử</h3></a>
+			<p>Với đội ngũ chuyên viên trẻ đam mê và có trách nhiệm. Dịch vụ web 2.0 sẽ giúp bạn quản trị, 
+				cập nhật và tối ưu hóa SEO nội dung cho website một cách hiệu quả nhất.</p>
+		</div>
+		<div class="grid_1_of_3 images_1_of_3">
+			<img src="http://test.local/empweb/web/images/icon3.png" alt="" />
+			<a href="#"><h3>Thiết kế website</h3></a>
+			<p>Hãy nhấc điện thoại lên và gọi ngay cho chúng tôi. 
+				Dịch vụ web 2.0 sẽ giúp bạn thiết kế website hơn cả sự mong đợi của bạn.</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+<!-- start mid_grid -->
+<div class="btm_grid_bg">
+<div class="wrap">
+	<div class="btm_grid">
+		<h2>Tin mới nhất</h2>
+		<div class="span_of_3">
+			<div class="span1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog"><img src="http://test.local/empweb/web/images/pic1.jpg" alt=""/></a>
+				<a class="popup-with-zoom-anim" href="#small-dialog"><h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3></a>
+				<h4 class="divider"></h4>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+			</div>
+			<div class="span1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog"><img src="http://test.local/empweb/web/images/pic2.jpg" alt=""/>
+				<a class="popup-with-zoom-anim" href="#small-dialog"><h3 class="style">Curabitur sagittis augue posuere metus.</h3></a>
+				<h4 class="divider"></h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+			</div>
+			<div class="span1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog"><img src="http://test.local/empweb/web/images/pic1.jpg" alt=""/>
+				<a class="popup-with-zoom-anim" href="#small-dialog"><h3>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </h3></a>
+				<h4 class="divider"></h4>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- start testimonial  -->
+<div class="products_bg">
+<div class="wrap">
+	<div class="products">
+		<h2>Dự án của EMP</h2>
+		<div class="products_of_3">
+			<div class="product1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog2"><img src="http://test.local/empweb/web/images/proj1.jpg" alt=""/></a>
+				<a href="#"><h3>Woo Project #1</h3></a>
+				<h4>$3</h4>
+				<div id="small-dialog2" class="mfp-hide">
+					<div class="pop_up">
+					 	<h2>our new projects</h2>
+						<img src="http://test.local/empweb/web/images/proj2.jpg" alt=""/>
+					</div>
+				</div>
+			</div>
+			<div class="product1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog2"><img src="http://test.local/empweb/web/images/proj2.jpg" alt=""/></a>
+				<a href="#"><h3>Woo Project #2</h3></a>
+				<h4>$5</h4>
+			</div>
+			<div class="product1_of_3">
+				<a class="popup-with-zoom-anim" href="#small-dialog2"><img src="http://test.local/empweb/web/images/proj3.jpg" alt=""/></a>
+				<a href="#"><h3>Woo Project #3</h3></a>
+				<h4>$9</h4>
+			</div>		
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- start footer  -->
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer" style='padding: 1% !important;'>
+		<div class="footer_btm">
+		<div class="copy">
+			<p class="w3-link">Copyright 2013 <span><a href="index.html"> EMP </a></span>.
+				</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
