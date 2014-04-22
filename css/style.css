@@ -29,7 +29,8 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+/* 	font-family: 'Source Sans Pro', sans-serif; */
+	font-family: Calibri !important;
 	font-size: 100%;
 	background: #ffffff;
 }
@@ -1437,4 +1438,13 @@ p.para{
 		margin-right: 4px;
 		width: 17.3333%;
 	}
+}
+strong{
+	font-weight: bold !important;
+}
+.h1-headig{
+	word-wrap: break-word;
+	font-size: 2.8em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
 }
